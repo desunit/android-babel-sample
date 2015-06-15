@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ../BabelTest
+
+# clean project
+xbuild BabelTest.csproj /p:Configuration=Release /t:Clean
+
+# build and sign APK
+xbuild BabelTest.csproj /p:Configuration=Release /t:SignAndroidPackage
+

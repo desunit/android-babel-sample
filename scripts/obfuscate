@@ -1,0 +1,9 @@
+#!/bin/bash
+# specify path to Babel console app
+BABEL_PATH=./babel.exe
+SRC=../BabelTest/obj/Release/assemblies
+
+mono $BABEL_PATH --unicode s,_ $SRC/BabelTest.dll $SRC/BabelLibrary.dll --output $SRC/BabelTest.dll
+
+# prepare stub assembly
+mcs -t:library -out:$SRC/BabelLibrary.dll stub.cs 

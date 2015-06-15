@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelTest", "BabelTest\BabelTest.csproj", "{3F2FDA28-F032-4FD2-95BA-26A3B72A7DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelTest.UITests", "BabelTest.UITests\BabelTest.UITests.csproj", "{118877B8-46D3-4A53-AD02-3F9CC08D65E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabelLibrary", "BabelLibrary\BabelLibrary.csproj", "{C12DECE3-C4BE-4DDD-94A1-C1FB6FE19D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118877B8-46D3-4A53-AD02-3F9CC08D65E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118877B8-46D3-4A53-AD02-3F9CC08D65E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118877B8-46D3-4A53-AD02-3F9CC08D65E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118877B8-46D3-4A53-AD02-3F9CC08D65E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2FDA28-F032-4FD2-95BA-26A3B72A7DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2FDA28-F032-4FD2-95BA-26A3B72A7DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2FDA28-F032-4FD2-95BA-26A3B72A7DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2FDA28-F032-4FD2-95BA-26A3B72A7DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12DECE3-C4BE-4DDD-94A1-C1FB6FE19D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12DECE3-C4BE-4DDD-94A1-C1FB6FE19D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12DECE3-C4BE-4DDD-94A1-C1FB6FE19D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12DECE3-C4BE-4DDD-94A1-C1FB6FE19D64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
