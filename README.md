@@ -1,6 +1,6 @@
 # android-babel-sample
 
-Songtive uses Xamarin as main framework for music related applications. We chosed OS X to unify the whole development for both platforms: iOS and Android. That being said, we had to configure the packaging and obfuscating process right from OS X. For obfuscating we selected https://babelfor.net/ which just works greatly without any additional tweaks. Babel provides Task for `MSBuild` to obfuscate your app but `Tasks` doesn’t work for well for Xamarin.Studio. So you are stuck to use only custom commands or custom `Targets` in `csproj`.
+[Songtive](www.songtive.com) uses Xamarin as main framework for music related applications. We chosed OS X to unify the whole development for both platforms: iOS and Android. That being said, we had to configure the packaging and obfuscating process right from OS X. For obfuscating we selected https://babelfor.net/ which just works greatly without any additional tweaks. Babel provides Task for `MSBuild` to obfuscate your app but `Tasks` doesn’t work for well for Xamarin.Studio. So you are stuck to use only custom commands or custom `Targets` in `csproj`.
 
 This document is step by step guide how to integrate Babel into your Android APK build process. 
 
