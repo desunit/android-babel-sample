@@ -47,7 +47,7 @@ We specify to Babel that we are going to merge our library right into Android ap
 
 Let’s run /script/build again and unzip APK to get `/assemblies/BabelTest.dll`. Use ILSpy to see what we have here:
 
-
+![](https://github.com/desunit/android-babel-sample/blob/master/images/ilspy.png)
 
 
 Your assemblies are obfuscated. 
